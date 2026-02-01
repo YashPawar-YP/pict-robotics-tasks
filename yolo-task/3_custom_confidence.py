@@ -17,4 +17,7 @@ for result in results:
         
         print(f"Detected: {class_name} with {confidence: .2%} confidence")
 
+cv2.imshow("YOLO Detected with all confidence scores", results[0].plot())
+cv2.waitKey(5000)
+
 cv2.imwrite("detection-results/confidence_detected_img.jpg", results[0].plot())

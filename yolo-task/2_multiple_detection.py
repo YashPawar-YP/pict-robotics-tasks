@@ -17,7 +17,10 @@ print(f"Processing {len(images)} images...")
 for img_path in images:
     results = model(img_path)
     img_name = os.path.basename(img_path)
-    
+
+    cv2.imshow(f"YOLO Detection {img_name}", results[0].plot())
+    cv2.waitKey(5000)
+
     cv2.imwrite(f"detection-results/{img_name}.jpg", img)
     print(f"Processed: {img_name}")
 

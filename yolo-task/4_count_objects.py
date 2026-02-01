@@ -19,11 +19,15 @@ for result in results:
 
 object_counts = Counter(detected_objects)
 
-print("Object Detection Summary:")
+
 print("-" * 30)
 for obj, count in object_counts.items():
     print(f"{obj}: {count}")
 print("-" * 30)
+print("Object Detection Summary:")
 print(f"Total objects detected: {len(detected_objects)}")
+
+cv2.imshow("Image", results[0].plot())
+cv2.waitKey(5000)
 
 cv2.imwrite(f"detection-results/counted_objects.jpg", results[0].plot())
