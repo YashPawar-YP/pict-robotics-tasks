@@ -25,6 +25,5 @@ The Arduino control led project demonstrates how to controll a led using a push 
 - In blink phase, the led turns on and off with a delay, which makes it blink.
 - When the button is pressed again, the blink mode is turned off and the led stops blinking.
 
-A small delay is used after button press to avoid multiple detections due to bouncing.
 5.Simulation:-
 This Arduino project is built and tested using Wokwi simulator.
