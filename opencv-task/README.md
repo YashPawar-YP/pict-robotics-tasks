@@ -15,7 +15,7 @@ i.Read & Display Image (1_display_image.py)
 - Stores the processed image in output-images.
 
 * Robotics application:-
-    Basic camera feed reading from robot sensors.
+    Basic camera feed reading for robot sensors.
 
 ii.Grayscale Conversion (2_grayscale_conversion.py)
 - Reads the image.
