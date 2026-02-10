@@ -13,8 +13,6 @@ cv2.circle(img, center, 50, (255, 0, 0), -1)
 
 cv2.line(img, (0, 0), (width, height), (0, 0, 255), 2)
 
-cv2.putText(img, "OpenCV Test", (50, height-50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
-
 cv2.imshow("shapes_image", img)
 cv2.waitKey(5000)
 cv2.destroyAllWindows()
