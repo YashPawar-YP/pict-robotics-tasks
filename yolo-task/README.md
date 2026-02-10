@@ -1,7 +1,7 @@
 YOLO (You Only Look Once) object detection task
 
 1.Overview:-
-YOLO (You Only Look Once) is an object detection algorithm that can detect multiple objects with their confidence score in real time. It tells us what objects are present and where they are located. I have used a trained model named "yolov8n" to do image processing, object detection and classification tasks.
+YOLO (You Only Look Once) is an object detection algorithm that can detect multiple objects with their confidence score in real time. It tells us what objects are present and where they are located in the image  . I have used a trained model named "yolov8n" to do image processing, object detection and classification tasks.
 
 2.Setup:- 
 pip install ultralytics
