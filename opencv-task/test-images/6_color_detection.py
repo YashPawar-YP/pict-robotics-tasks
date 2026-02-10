@@ -11,7 +11,7 @@ lower_blue = np.array([100, 50, 50])
 upper_blue = np.array([130, 255, 255])
 
 mask_img = cv2.inRange(hsv_img, lower_blue, upper_blue)
-result_img = cv2.bitwise_and(hsv_img, hsv_img, mask=mask_img)
+result_img = cv2.bitwise_and(img, img, mask=mask_img)
 
 cv2.imshow("original_image", img)
 cv2.waitKey(5000)
