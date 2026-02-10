@@ -19,6 +19,6 @@ void loop() {
     digitalWrite(ledPin, LOW);
     delay(500);
   } else {
-    digitalWrite(ledPin, LOW);  // Keep LED off
+    digitalWrite(ledPin, LOW);
   }
 }
